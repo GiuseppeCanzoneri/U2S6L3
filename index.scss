@@ -1,12 +1,16 @@
 // scss-docs-start import-stack
 // Configuration
-@import "./bootstrap/functions";
+@import "./scss/bootstrap/functions";
 // Include any default variable overrides here
+
+$primary:purple;
+
 /*
 qua ci mettete tutti gli override alle variabili
+
 per sapere quali sono le variabili andate nel file corrispondente _variables.scss
 */
-@import "./bootstrap/variables";
+@import "./scss/bootstrap/variables";
 //Include any default map overrides here
 /*
 qua ci mettete tutti gli override alle maps
@@ -15,26 +19,26 @@ per sapere quali sono le variabili andate nel file corrispondente _maps.scss
 
 
 
-@import "./bootstrap/maps";
-@import "./bootstrap/mixins";
-@import "./bootstrap/utilities";
+@import "./scss/bootstrap/maps";
+@import "./scss/bootstrap/mixins";
+@import "./scss/bootstrap/utilities";
 
 // Layout & components
-@import "./bootstrap/root";
-@import "./bootstrap/reboot";
-@import "./bootstrap/type";
-@import "./bootstrap/images";
-@import "./bootstrap/containers";
-@import "./bootstrap/grid";
+@import "./scss/bootstrap/root";
+@import "./scss/bootstrap/reboot";
+@import "./scss/bootstrap/type";
+@import "./scss/bootstrap/images";
+@import "./scss/bootstrap/containers";
+@import "./scss/bootstrap/grid";
 //@import "tables";
-@import "./bootstrap/forms";
-@import "./bootstrap/buttons";
-@import "./bootstrap/transitions";
-@import "./bootstrap/dropdown";
+@import "./scss/bootstrap/forms";
+@import "./scss/bootstrap/buttons";
+@import "./scss/bootstrap/transitions";
+@import "./scss/bootstrap/dropdown";
 //@import "button-group";
-@import "./bootstrap/nav";
-@import "./bootstrap/navbar";
-@import "./bootstrap/card";
+@import "./scss/bootstrap/nav";
+@import "./scss/bootstrap/navbar";
+@import "./scss/bootstrap/card";
 //@import "accordion";
 //@import "breadcrumb";
 //@import "pagination";
@@ -53,8 +57,8 @@ per sapere quali sono le variabili andate nel file corrispondente _maps.scss
 //@import "placeholders";
 
 // Helpers
-@import "./bootstrap/helpers";
+@import "./scss/bootstrap/helpers";
 
 // Utilities
-@import "./bootstrap/utilities/api";
+@import "./scss/bootstrap/utilities/api";
 // scss-docs-end import-stack
